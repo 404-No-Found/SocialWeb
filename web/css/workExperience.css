@@ -1,0 +1,30 @@
+.content{
+    position: absolute;
+    text-align: center;
+    padding-right: 350px;
+    padding-left: 250px;
+    color: black;
+    font-size: 20px;
+}
+.bg{
+    background: url("../images/pic_bg_workEp.png");
+    height: 700px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.theone {
+    background-image: linear-gradient(to top right,
+    lightgoldenrodyellow,palegoldenrod);
+
+}
+.thetwo{
+    background-image: linear-gradient(to top right,
+    lightgoldenrodyellow,palegoldenrod);
+}
+.thefour{
+    font-size: 40px;
+    font-family: "楷体", sans-serif;
+    font-weight: bold;
+}

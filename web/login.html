@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/rotation.js"></script>
+    <title>用户登录</title>
+</head>
+<body>
+<div class="wrap">
+    <div class="login">
+        <div class="top">
+            <form action="" method="post" id="user_form">
+                <input class="text user" type="text" id="username" name="username" placeholder="请输入用户名/邮箱" onblur="checkUser()">
+                <input  class="text pwd" type="password" id="password" name="password" placeholder="请输入密码" onblur="checkPaw()"><br />
+                <div class="remember"> <input type="checkbox" id="remember_me" >记住我</div>
+                <div class="forget"><a href="" class="forget_onclick" >忘记密码</a></div>
+                <input  type="submit" value="登     录" onclick="isHave()" >
+                <div class="to_register">
+                    还没有遇到那个人？<a href="register.html" class="to_register_onclick">立即注册!</a>
+                </div>
+            </form>
+
+        </div>
+        <div class="bottom">
+            <hr/>
+            <p>快捷登录:
+                <img src="images/weixin.png" alt="">
+                <img src="images/pic_qq.png" alt="">
+                <img src="images/weibo.png" alt="">
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

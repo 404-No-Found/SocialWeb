@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/register.js" type="text/javascript"></script>
+    <title>新用户注册</title>
+</head>
+<body>
+<div class="layout">
+    <div class="caption">
+       <p align="center">注册新账号</p>
+    </div>
+    <form action="" method="post" id="register_form">
+    <div class="user">
+        名字：<br />  <input type="text" id="username" name="username" class="size" placeholder="4-16位英文字符" onblur="checkUsername()">
+    </div>
+    <div class="pass">
+        密码：<br />  <input type="password" id="password" class="size">
+    </div>
+    <div class="repass">
+        确认密码：<br />   <input type="password" id="newPaw" name="password" class="size" onblur="checkPassword()">
+    </div>
+    <div class="e-mail">
+        邮箱:<br />   <input type="email" id="email" name="email" class="size" onblur="checkEmail()">
+    </div>
+    <div class="agree"> <input type="checkbox" id="agree" ><a href="#"><span class="agree_size">同意协议并接受服务条款</span></a>
+</div>
+    <div class="btn_reg">
+        <input type="submit" class="register" value="注   册" onclick="isHave()">
+    </div>
+    </form>
+</div>
+<div class="footer">
+    <hr/>
+    <footer>
+        第二小组 版权所有<br />
+        Copyright &copy; 2018-2018 NIIT Corporation, All Rights Reserved
+    </footer>
+</div>
+</body>
+
+
+</html>

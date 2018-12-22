@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+}
+
+.table1{
+   padding-right: 100px;
+}
+img{
+    width: 64px;
+    height: 64px;
+}
+.theme {
+    width: 64px;
+    height: 64px;
+    border: 2px solid #000000;
+    margin-top: 20px;
+
+}
+.theme-font {
+    font-size: 18px;
+    margin-right: 25px;
+    color: #ff5d7d;
+    margin-top: 20px;
+}
+/*标题闪烁*/
+.font{
+    font-size: 20px;
+    color:#000000;
+    margin: 0;
+    animation: changeshadow 1s  ease-in  infinite ;
+    text-align: center;
+    /* 其它浏览器兼容性前缀 */
+    -webkit-animation: changeshadow 1s linear infinite;
+    -moz-animation: changeshadow 1s linear infinite;
+    -ms-animation: changeshadow 1s linear infinite;
+    -o-animation: changeshadow 1s linear infinite;
+}
+@keyframes changeshadow {
+    0%{ text-shadow: 0 0 4px #000000}
+    50%{ text-shadow: 0 0 40px #000000}
+    100%{ text-shadow: 0 0 4px #000000}
+}
+/* 添加兼容性前缀 */
+@-webkit-keyframes changeshadow {
+    0%{ text-shadow: 0 0 4px #000000}
+    50%{ text-shadow: 0 0 40px #000000}
+    100%{ text-shadow: 0 0 4px #000000}
+}
+@-moz-keyframes changeshadow {
+    0%{ text-shadow: 0 0 4px #000000}
+    50%{ text-shadow: 0 0 40px #000000}
+    100%{ text-shadow: 0 0 4px #000000}
+}
+@-ms-keyframes changeshadow {
+    0%{ text-shadow: 0 0 4px #000000}
+    50%{ text-shadow: 0 0 40px #000000}
+    100%{ text-shadow: 0 0 4px #000000}
+}
+@-o-keyframes changeshadow {
+    0%{ text-shadow: 0 0 4px #000000}
+    50%{ text-shadow: 0 0 40px #000000}
+    100%{ text-shadow: 0 0 4px #000000}
+}
+
+#input1{
+    border:1px solid #ffe761;
+background-color:transparent;}
+#input2{
+    border:1px solid #ffe761;
+    background-color:transparent;
+}
+#input3{
+    border:1px solid #ffe761;
+    background-color:transparent;
+}
+#button1{
+    background-color: #ffb46d;
+    width: 70px;
+    height: 36px;
+    color: #FFFFFF;
+}
+#button2{
+    background-color: #ffb46d;
+    width: 70px;
+    height: 36px;
+    color: #FFFFFF;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.53);
+}
+.footer footer{
+    text-align: center;
+    line-height: 1.8em;
+    /*background: rgba(48, 138, 144, 0.53);*/
+    color: white;
+}

@@ -1,0 +1,231 @@
+
+p{
+  margin: 0;
+}
+body{
+  background:url("../images/bg_socialWeb.jpg") no-repeat;
+  margin: 0;
+  background-size: 100%;
+}
+.homepage{
+  border: 1px solid #cccccc;
+  height: 700px;
+}
+.homepageTop{
+  border: 1px solid #cccccc;
+  height: 50px;
+}
+.top{
+
+  height:50px ;
+  float: left;
+}
+.topRight{
+  float: left;
+}
+.topRight a:hover{
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+.topRight a{
+  line-height:50px ;
+  color:#999999;
+  font-family: 楷体, serif;
+  text-decoration: none;
+  text-align: center ;
+  font-size: 25px;
+  border:2px solid ;
+  border-radius: 45px;
+}
+.nav {
+  width: 1100px;
+  font: bold 0/50px 楷体;
+  text-align: left;
+}
+
+/*对于标签a的声明*/
+.nav a {
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+/*:hover 伪类在鼠标移到元素上时向此元素添加特殊的样式。指的是鼠标在上方时发生变化。*/
+.nav a:hover {
+  -webkit-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+/*degrees是度，圆有360度*/
+
+.nav li {
+  position: relative;
+  display: inline-block;
+  padding: 0 16px;
+  font-size: 16px;
+  /*text-shadow: 1px 2px 2px rgba(0, 0, 0, 1.5);*/
+  list-style: none outside none;
+}
+.nav a,
+.nav a:hover{
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  /*下划线*/
+}
+#container{
+  width: 100%;
+
+}
+.container_left{
+  height: 647px;
+  width: 40%;
+  border: 1px solid #999999;
+  float: left;
+
+}
+.user_info{
+  width: 100%;
+}
+.user_info_top{
+  width: 100%;
+  /*height: 40%;*/
+  text-align: center;
+
+}
+.user_info_top img{
+  width: 20%;
+  /*height: 100%;*/
+  float: left;
+}
+.user_nickName{
+  padding-left: 130px;
+  width: 50%;
+  /*height: 100%;*/
+  margin-top: 30px;
+  /*line-height: 100px;*/
+  /*float: right;*/
+  float: left;
+}
+.user_nickName p{
+  font-size: 25px;
+  font-weight: bold;
+}
+.user_nickName a{
+  font-size: 10px;
+  /*padding-top: 150px;*/
+  text-decoration: none;
+}
+.user_info_bottom{
+  padding-top: 0;
+  width: 100%;
+  text-align: center;
+}
+.user_info_bottom td{
+  padding-left: 0;
+}
+.work_exp{
+  padding-top: 0;
+  padding-left: 80px;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+
+}
+h2{
+  text-align: center;
+}
+.work_exp a{
+  color: #5ebe00;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-size:15px ;
+  text-decoration: none;
+}
+
+
+.edu_exp{
+  padding-top: 110px;
+  padding-left: 80px;
+  text-align: center;
+  width: 100%;
+  /*height: 180px;*/
+}
+.user_nickName a{
+  /*padding-top: 20px;*/
+  color: #5ebe00;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-size:15px ;
+  text-decoration: none;
+}
+.thane{
+  padding-top: 110px;
+  padding-left: 80px;
+  text-align: center;
+  width: 100%;
+  /*height: 180px;*/
+}
+.edu_exp_right{
+  width: 60%;
+  color: #5ebe00;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-size:15px ;
+  text-decoration: none;
+}
+.footer{
+  background-color: rgba(0, 0, 0, 0.53);
+}
+.footer footer{
+  text-align: center;
+  line-height: 1.8em;
+  /*background: rgba(48, 138, 144, 0.53);*/
+  color: white;
+}
+
+li{
+  display: inline;
+}
+#header a{
+  line-height: 50px;
+  font-size: 20px;
+  padding-left: 80px;
+  text-decoration: none;
+}
+.one{
+  padding-top: 50px;
+  font-family: 楷体,serif;
+  text-align: center;
+  font-size: 35px;
+  padding-left: 350px;
+
+}
+ul,p{margin:0;padding:0;}
+
+li{list-style:none;}
+
+.box{
+  width:600px;
+  margin:0 auto;
+  font-family: 楷体,serif;
+}
+.box .img{
+  float:left;
+}
+
+.box .img img{width:100px;height:100px;}
+
+.box .list{
+
+  width: auto;
+}
+
+.box .list li{line-height:20px;font-size:20px;}
+
+.list li span{font-weight:bold;}
